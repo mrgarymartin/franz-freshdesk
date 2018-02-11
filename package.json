@@ -1,0 +1,24 @@
+{
+  "id": "freshdesk",
+  "name": "Freshdesk",
+  "version": "1.0.0",
+  "description": "Freshdesk",
+  "main": "index.js",
+  "author": "Gary Martin <gary@mrgarymartin.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.freshdesk.com",
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": true,
+    "hasTeamId": true,
+    "urlInputSuffix": ".freshdesk.com",
+    "message": "",
+    "popup": [],
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
